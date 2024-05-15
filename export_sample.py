@@ -7,6 +7,11 @@
         イベント２ => 12:45, 12:46
         時点の静止画をDLする。
 
+    （注意）
+    export SORACOM_AUTH_KEY_ID = your soracom auth key id
+    export SORACOM_AUTH_KEY = your soracom auth key
+    してから実行してください。
+
     2024/5/15 t.odaka
 
     引数：   device : device id （クラウドモーション検知 “無制限” 録画ライセンスが適用されていること）
@@ -16,6 +21,8 @@
             interval : 何秒間隔で静止画を抽出するか？
             fps : フレームレート。1秒間に静止画を何枚見るか。
             maxwidth : 解像度（横幅）の最大値
+            
+    
 
     （注記）
     (1) ソラコム公式「タイムラプス動画を作成する」
